@@ -1,0 +1,100 @@
+{
+  "_description": "Synonym groups for keyword normalization. Key = canonical form, value = variants.",
+  "_usage": "Edit to add domain-specific synonyms. Applied in Phase 2 (clean.py).",
+  "_domains": ["nanomedicine (default)", "artificial_life", "synthetic_biology", "machine_learning"],
+
+  "artificial life": [
+    "alife", "a-life", "artificial life", "artificial-life",
+    "digital life", "virtual life", "in silico life", "computational life"
+  ],
+  "synthetic biology": [
+    "synthetic biology", "synbio", "synthetic-biology",
+    "synthetic genomics", "synthetic genome"
+  ],
+  "open-ended evolution": [
+    "open ended evolution", "open-ended evolution", "open-endedness",
+    "unbounded evolution", "ongoing evolution", "perpetual evolution"
+  ],
+  "protocell": [
+    "protocell", "protocells", "proto-cell", "proto-cells",
+    "synthetic cell", "synthetic cells", "artificial cell", "artificial cells",
+    "minimal cell", "minimal cells", "bottom-up synthetic biology"
+  ],
+  "cellular automaton": [
+    "cellular automaton", "cellular automata", "ca", "continuous ca",
+    "lenia", "flow lenia", "neural cellular automata", "nca"
+  ],
+  "digital evolution": [
+    "digital evolution", "in silico evolution", "computational evolution",
+    "virtual evolution", "evolutionary computation", "evolutionary algorithm"
+  ],
+  "self-replication": [
+    "self replication", "self-replication", "self replicating",
+    "self-replicating", "autocatalytic", "autocatalysis", "self reproduction"
+  ],
+  "autopoiesis": [
+    "autopoiesis", "autopoietic", "organizational closure",
+    "self-organization", "self organization", "self-organizing"
+  ],
+  "minimal genome": [
+    "minimal genome", "minimal genomes", "reduced genome", "reduced genomes",
+    "genome reduction", "genome minimization", "genome streamlining",
+    "genome reduced", "jcv syn", "syn3", "syn3b"
+  ],
+  "foundation model": [
+    "foundation model", "foundation models", "large language model", "llm",
+    "vision-language model", "vlm", "fm"
+  ],
+  "quality diversity": [
+    "quality diversity", "quality-diversity", "qd",
+    "map elites", "novelty search"
+  ],
+  "machine learning": [
+    "machine learning", "ml", "deep learning", "neural network",
+    "neural networks", "artificial intelligence", "ai"
+  ],
+  "lipid nanoparticle": [
+    "lipid nanoparticle", "lnp", "lnps", "lipid nanoparticles",
+    "solid lipid nanoparticle", "sln"
+  ],
+  "messenger rna": [
+    "mrna", "messenger rna", "messenger-rna", "mrna vaccine"
+  ],
+  "blood brain barrier": [
+    "bbb", "blood-brain barrier", "blood brain barrier"
+  ],
+  "extracellular vesicle": [
+    "ev", "extracellular vesicle", "extracellular vesicles",
+    "exosome", "exosomes"
+  ],
+  "tumor microenvironment": [
+    "tme", "tumour microenvironment", "tumor microenvironment"
+  ],
+  "gene therapy": [
+    "gene therapy", "gene-therapy", "genetic therapy"
+  ],
+  "crispr": [
+    "crispr", "crispr-cas9", "crispr-cas13", "crispr/cas9"
+  ],
+  "drug delivery": [
+    "drug delivery", "drug-delivery", "drugrelease", "drug release",
+    "therapeutic delivery", "targeted delivery"
+  ],
+  "nanoparticle": [
+    "nanoparticle", "nanoparticles", "np", "nps", "nano-particle"
+  ],
+  "polyethylene glycol": [
+    "peg", "polyethylene glycol", "polyethyleneglycol", "pegylation"
+  ],
+  "metal organic framework": [
+    "mof", "metal-organic framework", "metal organic framework", "mofs"
+  ],
+  "agent-based model": [
+    "agent based model", "agent-based model", "agent-based modeling",
+    "abm", "multi-agent system", "multi-agent simulation"
+  ],
+  "directed evolution": [
+    "directed evolution", "directed-evolution", "adaptive laboratory evolution",
+    "ale", "experimental evolution"
+  ]
+}
